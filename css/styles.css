@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(234, 240, 243, 0.781);
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1a1a2e;
+    padding: 30px 30px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.navbar ul li.perfil {
+    margin-right: auto;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    margin-right: 20px;
+}
+
+.navbar ul li.perfil a {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.navbar ul li {
+    margin-right: 5px;
+}
+
+.btn-navbar {
+    background-color: #00b4d8;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+
+/* MAIN */
+.main-principal {
+    display: flex;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+/* COLUMNA IZQUIERDA*/
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 20px;
+}
+
+/*TARJETA PERFIL*/
+.card-perfil {
+    background-color: #69a3cf;
+    height: 90px;
+    border-radius: 10px 10px;
+}
+
+.card-imagen-perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #d2e4f3;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+.perfil-completo{
+    background-color:#d2e4f3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin-bottom: 30px;
+}
+
+.card-nombre {
+    background-color:#d2e4f3;
+    padding: 20px 20px 25px;
+}
+
+.card-nombre h1 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.card-informacion h3 {
+    color: #555;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.card-informacion p {
+    font-size: medium;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* EDIT PROFILE */
+.boton {
+    margin-bottom: 10px;
+}
+
+.boton button {
+    background: none;
+    border: none;
+    color: #00b4d8;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+.boton button::before {
+    content: "⚙";
+    margin-right: 5px;
+}
+
+/* TARJETA EDUCACIÓN */
+.card-educacion {
+    background-color:#d2e4f3;
+    height: 100px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+
+.card-educacion h2 {
+    font-size: larger;
+    margin-bottom: 15px;
+    color:black;
+}
+
+.edu-cole {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.edu-datos {
+    font-size: medium;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.edu-desc {
+    font-size: medium;
+    color: #777;
+}
+
+/* COLUMNA DERECHA */
+.derecha {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+/* TARJETA SOLICITUDES */
+.card-solicitud {
+    background-color: #d2e4f3;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+
+.card-solicitud h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.solicitud1, .solicitud2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.solicitud2 {
+    border-bottom: none;
+}
+
+.solicitud1 img, .solicitud2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.solicitud1 h4, .solicitud2 h4 {
+    margin-right: auto;
+}
+
+.solicitud1 .material-symbols-outlined:first-of-type, .solicitud2 .material-symbols-outlined:first-of-type {
+    color: rgb(225, 121, 206);
+}
+
+.solicitud1 .material-symbols-outlined:last-of-type, .solicitud2 .material-symbols-outlined:last-of-type {
+    color: rgb(225, 121, 206);
+}
+
+/* TARJETA CONEXIONES */
+.card-conexion {
+    background-color:#d2e4f3;
+    border-radius: 10px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+
+.card-conexion h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.conexion1,.conexion2, .conexion3, .conexion4, .conexion5, .conexion6 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.conexion6 {
+    border-bottom: none;
+}
+
+.conexion1 img, .conexion2 img, .conexion3 img, .conexion4 img, .conexion5 img, .conexion6 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
