@@ -36,5 +36,3 @@ Durante este proyecto se trabajó en:
 - Diseño visual inspirado en interfaces reales.
 - Organización de componentes y estilos CSS.
 - Resolución de problemas de alineación y distribución de elementos.
-
----
