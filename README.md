@@ -38,13 +38,3 @@ Durante este proyecto se trabajó en:
 - Resolución de problemas de alineación y distribución de elementos.
 
 ---
-
-## 📸 Vista del Proyecto
-
-Puedes agregar aquí una captura de pantalla del proyecto:
-
-```md
-![Vista previa del proyecto](./assets/preview.png)
-```
-
----
